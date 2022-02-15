@@ -15,7 +15,7 @@ def C_trans_to_E(string):
     """
     E_pun = u',.!?()'
     C_pun = u'，。！？（）'
-    table = {ord(f): ord(t) for f,t in zip(C_pun, E_pun)}
+    table = {ord(f): ord(t) for f, t in zip(C_pun, E_pun)}
     return string.translate(table)
 
 
