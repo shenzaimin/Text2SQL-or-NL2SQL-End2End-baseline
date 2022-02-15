@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91d97fc6-93aa-4768-8c25-a4d37e059088" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cache_dir/T5_CSgSQL_info4_eda_cache/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/NL2SQL/CSgSQL/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saved_model/T5_CSgSQL_info4_eda/outputs/checkpoint-90744-epoch-76/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/T5_for_CSgSQL.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nl2sql_utils/EDA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nl2sql_utils/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pymodel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pymodel.iml" afterDir="false" />
+    <list default="true" id="91d97fc6-93aa-4768-8c25-a4d37e059088" name="Default Changelist" comment="加入训练代码 Train.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nl2sql_utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/nl2sql_utils/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/train.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,8 +102,16 @@
       <option name="presentableId" value="Default" />
       <updated>1631071674698</updated>
       <workItem from="1631071675782" duration="21000" />
-      <workItem from="1644891100084" duration="7049000" />
+      <workItem from="1644891100084" duration="14676000" />
     </task>
+    <task id="LOCAL-00001" summary="加入训练代码 Train.py">
+      <created>1644898632490</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644898632490</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,19 +128,28 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="加入训练代码 Train.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入训练代码 Train.py" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/T5_for_CSgSQL.py</url>
+          <url>file://$PROJECT_DIR$/src/train.py</url>
           <line>127</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/train.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/GuoWang_AI_Contest$T5_for_CSgSQL.coverage" NAME="T5_for_CSgSQL Coverage Results" MODIFIED="1644897898580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/GuoWang_AI_Contest$T5_for_CSgSQL.coverage" NAME="train Coverage Results" MODIFIED="1644910029707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/GuoWang_AI_Contest$EDA.coverage" NAME="EDA Coverage Results" MODIFIED="1644895692147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/nl2sql_utils" />
   </component>
 </project>
