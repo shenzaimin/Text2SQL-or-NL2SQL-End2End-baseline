@@ -16,7 +16,7 @@
 
 ### （2）算法输入输出的整体处理流程和关键环节；
 算法整体处理流程图如下所示，
-![avatar](./pics/图片2.png)
+![avatar](./pics/图片1.png)
 
 关键环节：
 
@@ -31,7 +31,7 @@
 ### （1）介绍提交的模型文件中各文件的主要含义；
 ①./pymodel/data/NL2SQL/CSgSQL中存放了 比赛第一阶段数据集train.json和dev.json以及相应的数据库文件db_content.json和schema文件db_schema.json。
 ②./pymodel/saved_model/T5_CSgSQL/outputs/best_model中存放的是模型权重文件和相应的模型配置文件，如下图所示：
-![avatar](./pics/图片3.png)
+![avatar](./pics/图片2.png)
 
 ### （2）介绍文件之间的调用关系。
 程序调用流程为：
