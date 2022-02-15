@@ -1,0 +1,9 @@
+# data
+data/NL2SQL/CSgSQL
+!.gitkeep
+
+# checkpoints
+saved_model/T5_CSgSQL_info4_eda/outputs/checkpoint-90744-epoch-76
+
+# cache
+cache_dir/T5_CSgSQL_info4_eda_cache
