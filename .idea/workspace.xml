@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91d97fc6-93aa-4768-8c25-a4d37e059088" name="Default Changelist" comment="" />
+    <list default="true" id="91d97fc6-93aa-4768-8c25-a4d37e059088" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +11,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -23,14 +26,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/saved_model/T5_CSgSQL_info4_eda/outputs/checkpoint-90744-epoch-76" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/NL2SQL/CSgSQL" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/NL2SQL/CSgSQL" />
       <recent name="$PROJECT_DIR$/saved_model/T5_CSgSQL_info4_eda/outputs/checkpoint-90744-epoch-76" />
       <recent name="$PROJECT_DIR$/src/nl2sql_utils" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/data/NL2SQL/CSgSQL" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -98,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1631071674698</updated>
       <workItem from="1631071675782" duration="21000" />
-      <workItem from="1644891100084" duration="16220000" />
+      <workItem from="1644891100084" duration="18844000" />
     </task>
     <task id="LOCAL-00001" summary="加入训练代码 Train.py">
       <created>1644898632490</created>
@@ -135,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644911666552</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update README.md">
+      <created>1644912268557</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1644912268557</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
