@@ -106,7 +106,7 @@ model_args.top_k = 50  # 解码设置
 model_args.top_p = 0.95  # 解码设置
 
 # 模型实例化
-model = T5Model("mt5", "lemon234071/t5-base-Chinese", use_cuda=False, args=model_args)
+model = T5Model("mt5", "lemon234071/t5-base-Chinese", use_cuda=False, args=model_args)  # 模型词表包含中英文两种语言，模型地址：https://huggingface.co/lemon234071/t5-base-Chinese
 # 加载训练好的模型
 # model = T5Model("t5", "../saved_model/T5_CSgSQL_info4_eda/outputs/checkpoint-90744-epoch-76", args=model_args)
 

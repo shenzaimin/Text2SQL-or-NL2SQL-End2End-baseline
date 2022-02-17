@@ -7,7 +7,7 @@ def insert_punctuation_marks(sentence):
 
   # words = sentence.split(' ')        # english
   words = list(sentence)               # chinese
-  print(words)
+  # print(words)
   new_line = []
   q = random.randint(1, int(PUNC_RATIO * len(words) + 1))
   qs = random.sample(range(0, len(words)), q)
@@ -22,6 +22,7 @@ def insert_punctuation_marks(sentence):
   new_line = ''.join(new_line)            # chinese
   return new_line
 
-sent = '国网最早什么时候投运火力发电厂？'
-new_sent = insert_punctuation_marks(sent)
-print(new_sent)
+input_sent = '国网最早什么时候投运火力发电厂？'
+output_sent = insert_punctuation_marks(input_sent)
+print(f"input: {input_sent}")
+print(f"output: {output_sent}")
