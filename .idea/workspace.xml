@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91d97fc6-93aa-4768-8c25-a4d37e059088" name="Default Changelist" comment="commit">
+    <list default="true" id="91d97fc6-93aa-4768-8c25-a4d37e059088" name="Default Changelist" comment="Readme.md图片更新">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nl2sql_utils/EDA.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/nl2sql_utils/EDA.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +26,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/NL2SQL/CSgSQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -103,7 +102,7 @@
       <updated>1631071674698</updated>
       <workItem from="1631071675782" duration="21000" />
       <workItem from="1644891100084" duration="23833000" />
-      <workItem from="1644977178954" duration="11189000" />
+      <workItem from="1644977178954" duration="15539000" />
     </task>
     <task id="LOCAL-00001" summary="加入训练代码 Train.py">
       <created>1644898632490</created>
@@ -154,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644916247640</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Readme.md图片更新">
+      <created>1645090427335</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1645090427335</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +183,8 @@
     <MESSAGE value="增加requirements.txt" />
     <MESSAGE value="Update README.md" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="Readme.md图片更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme.md图片更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
